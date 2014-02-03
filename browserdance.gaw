@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<gamewave version="1.0.2">
+  <leap>
+    <game name="Browserdance" fingersForOpen="3" leftDefaultToTriggerMode="1"
+          leftXaxisMoveLikeGamepad="0" leftXaxisSensitivity="50" leftXaxisDeadband="15"
+          leftYaxisMoveLikeGamepad="0" leftYaxisSensitivity="50" leftYaxisDeadband="15"
+          leftZaxisMoveLikeGamepad="1" leftZaxisSensitivity="50" leftZaxisDeadband="15"
+          rightDefaultToTriggerMode="1" rightXaxisMoveLikeGamepad="0" rightXaxisSensitivity="50"
+          rightXaxisDeadband="15" rightYaxisMoveLikeGamepad="0" rightYaxisSensitivity="50"
+          rightYaxisDeadband="15" rightZaxisMoveLikeGamepad="1" rightZaxisSensitivity="50"
+          rightZaxisDeadband="15"/>
+    <gestures>
+      <gesture type="785" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="786" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="801" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="802" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="817" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="818" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="833" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="834" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="849" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="850" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="865" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="866" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="1041" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="1042" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="1057" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="1058" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="1297" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="1298" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="1313" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="1314" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="1329" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="1330" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="2305" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="2306" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="5905" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="5906" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="5921" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="5922" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="5937" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="5938" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="5953" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="5954" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="6193" action="1" keyCode="57" modifierFlags="8" nativeCode="25"/>
+      <gesture type="6194" action="1" keyCode="57" modifierFlags="8" nativeCode="25"/>
+      <gesture type="6209" action="1" keyCode="49" modifierFlags="8" nativeCode="18"/>
+      <gesture type="6210" action="1" keyCode="49" modifierFlags="8" nativeCode="18"/>
+      <gesture type="10001" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="10002" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="10017" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="10018" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="10033" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="10034" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="10049" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="10050" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="10289" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="10290" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="10305" action="1" keyCode="50" modifierFlags="8" nativeCode="19"/>
+      <gesture type="10306" action="1" keyCode="50" modifierFlags="8" nativeCode="19"/>
+      <gesture type="14097" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="14098" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="14113" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="14114" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="14129" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="14130" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="14145" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="14146" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="14385" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="14386" action="0" keyCode="-1" modifierFlags="-1" nativeCode="0"/>
+      <gesture type="14401" action="1" keyCode="51" modifierFlags="8" nativeCode="20"/>
+      <gesture type="14402" action="1" keyCode="51" modifierFlags="8" nativeCode="20"/>
+    </gestures>
+  </leap>
+</gamewave>

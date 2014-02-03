@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>copter Twist</title>
+</head>
+<style>
+  html { 
+    background-color: #e5e9f0;
+    background: url(desert.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  main {
+    width: 100%;
+  }
+  img {
+    margin: 60px 33%;
+  }
+</style>
+<body>
+  <button class="play">Play/pause</button>
+</body>
+<script src="js/jquery2.0.3.js"></script>
+<script>
+
+  alert("Press enter to play. If you have a Leap Motion Controller, spin the helicopter with your finger.");
+
+  var copter = $( "<img src='copter.png' alt='helicopter'>" );
+  var hazard = $( "<img src='hazard.png' alt='Hazard sign'>" );
+  var degrees = 0;
+  var amount;
+  $( "body" ).append(copter);
+
+  $( document ).ready(function() {
+
+    var buttonOn = true;
+    var context = new webkitAudioContext(),//webkit browsers only
+    oscillator = context.createOscillator();
+    oscillator.type = 0; // sine wave
+    oscillator.frequency.value = 40;
+    oscillator.connect(context.destination);
+    oscillator.noteOn(0);
+    // oscillator.noteOn && oscillator.noteOn(0);
+    $(".play").click(function() {
+      if (buttonOn) {
+        oscillator.noteOff(0);
+        buttonOn = false;
+      }
+      else {
+        oscillator = context.createOscillator();
+        oscillator.type = 0; // sine wave
+        oscillator.frequency.value = 40;
+        oscillator.connect(context.destination);
+        oscillator.noteOn(0);
+        buttonOn = true;
+      };
+    });
+  
+    $(document).keypress(function(e) {
+    if(e.which == 13) {
+      // enter pressed
+      if (degrees < 360) {
+        degrees += 10;
+      } else {
+        degrees = 0;
+        $(copter).remove();
+        $( "body" ).append(hazard);
+      };
+      amount = "rotate(" + degrees + "deg)";
+      $('img').css("transform", amount);
+
+      // $( "img" ).animate({
+      //   roatate: degrees + "",
+      //   left: "+=50",
+      //   height: "toggle"
+      // }, 5000, function() {
+      //   // Animation complete.
+      // });
+    }
+  });
+  });
+
+
+</script>
+</html>
